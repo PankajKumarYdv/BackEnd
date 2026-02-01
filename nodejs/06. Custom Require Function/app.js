@@ -1,12 +1,12 @@
-function loadModule(path){
-    const fs = require('fs'); // fs -> File read
+// importing modules
+const fs = require("fs"); // fs -> File read
 
-    const fileContent = fs.readFileSync(path).toString();
-    console.log(fileContent);
+// Function definition
+function loadModule(path) {
+  const fileContent = fs.readFileSync(path).toString();
+  return fileContent;
 }
 
-
-
-// using the above function 
+// using the above function
 const b = loadModule("./math.js");
 console.log(b);

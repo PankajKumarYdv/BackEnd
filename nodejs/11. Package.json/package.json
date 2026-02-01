@@ -1,0 +1,18 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "hi": "ls",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo No tests"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {}
+}

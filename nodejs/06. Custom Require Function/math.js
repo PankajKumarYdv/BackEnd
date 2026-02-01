@@ -1,1 +1,2 @@
-let a = 33; 
+const os = require("os");
+console.log(os.platform());
