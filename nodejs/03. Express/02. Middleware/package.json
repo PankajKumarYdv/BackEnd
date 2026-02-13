@@ -2,7 +2,7 @@
   "name": "02.-middleware",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "errorHandling.js",
   "scripts": {
     "dev": "node --watch app.js"
   },
